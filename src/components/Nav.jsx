@@ -39,7 +39,7 @@ export default function Nav() {
     }}>
       <a href="#hero" onClick={(e) => { e.preventDefault(); go('#hero') }}
         style={{ fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: 22, color: '#d4ff2b' }}>LB</a>
-      <div style={{ display: 'flex', gap: 40 }}>
+      <div className="mobile-nav-links" style={{ display: 'flex', gap: 40 }}>
         {links.map(l => (
           <a key={l.href} href={l.href} onClick={(e) => { e.preventDefault(); go(l.href) }}
             style={{

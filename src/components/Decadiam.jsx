@@ -33,7 +33,7 @@ export default function Decadiam() {
       <div style={{ position: 'absolute', inset: 0, background: 'rgba(8,8,8,0.75)', pointerEvents: 'none' }} />
 
       <div ref={inner} style={{ maxWidth: 1000, margin: '0 auto', padding: '0 32px', textAlign: 'center', position: 'relative', zIndex: 1 }}>
-        <img src="/posters/decadiam-logo.png" alt="Decadiam Films" style={{
+        <img src="/posters/decadiam-logo.png" alt="Decadiam Films" className="decadiam-logo" style={{
           width: 280, height: 'auto', margin: '0 auto 28px', display: 'block',
         }} />
 

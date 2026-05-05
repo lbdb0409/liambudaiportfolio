@@ -63,7 +63,7 @@ export default function Vision() {
           </p>
         </div>
 
-        <div style={{
+        <div className="vision-grid" style={{
           display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16,
           textAlign: 'center', marginBottom: 'clamp(60px, 8vh, 100px)',
         }}>

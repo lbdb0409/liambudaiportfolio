@@ -67,7 +67,7 @@ export default function Hero() {
           WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
         }}>BUDAI</h1>
 
-        <div ref={tag} style={{
+        <div ref={tag} className="hero-tag" style={{
           marginTop: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16, opacity: 0,
         }}>
           <div style={{ width: 40, height: 2, background: '#d4ff2b', borderRadius: 1 }} />

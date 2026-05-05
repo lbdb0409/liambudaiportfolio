@@ -55,7 +55,7 @@ function Project({ project }) {
       <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>
 
         {/* Full-width image */}
-        <div ref={imgRef} style={{
+        <div ref={imgRef} className="project-image" style={{
           width: '100%', aspectRatio: '2.2/1', borderRadius: 8,
           overflow: 'hidden', position: 'relative', marginBottom: 32,
         }}>

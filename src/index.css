@@ -31,3 +31,26 @@ a { color: inherit; text-decoration: none; cursor: none; }
 button { cursor: none; background: none; border: none; }
 
 @media (pointer: coarse) { * { cursor: auto !important; } }
+
+@media (max-width: 768px) {
+  nav { padding: 14px 18px !important; }
+  .mobile-nav-links { gap: 16px !important; }
+  .mobile-nav-links a { font-size: 11px !important; letter-spacing: 0.08em !important; }
+
+  .hero-tag { flex-wrap: wrap !important; padding: 0 20px; gap: 10px !important; }
+  .hero-tag > div { width: 24px !important; }
+  .hero-tag > span { font-size: 10px !important; letter-spacing: 0.15em !important; line-height: 1.6; flex-basis: 100%; text-align: center; }
+
+  .project-image { aspect-ratio: 4/5 !important; }
+
+  .vision-grid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+  .vision-grid > div { padding: 16px !important; }
+
+  .decadiam-logo { width: min(200px, 55vw) !important; }
+}
+
+@media (max-width: 420px) {
+  .vision-grid { grid-template-columns: 1fr !important; }
+  .mobile-nav-links { gap: 12px !important; }
+  .mobile-nav-links a { font-size: 10px !important; }
+}
