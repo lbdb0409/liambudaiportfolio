@@ -135,7 +135,7 @@ export default function Credits() {
         </h2>
       </div>
 
-      <div ref={trackRef} style={{
+      <div ref={trackRef} className="credits-track" style={{
         display: 'flex', gap: 24, padding: '0 clamp(32px, 8vw, 120px)',
         flexDirection: 'row', width: 'max-content',
       }}>

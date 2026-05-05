@@ -30,7 +30,10 @@ body {
 a { color: inherit; text-decoration: none; cursor: none; }
 button { cursor: none; background: none; border: none; }
 
-@media (pointer: coarse) { * { cursor: auto !important; } }
+@media (pointer: coarse) {
+  * { cursor: auto !important; }
+  .custom-cursor { display: none !important; }
+}
 
 @media (max-width: 768px) {
   nav { padding: 14px 18px !important; }
@@ -47,6 +50,16 @@ button { cursor: none; background: none; border: none; }
   .vision-grid > div { padding: 16px !important; }
 
   .decadiam-logo { width: min(200px, 55vw) !important; }
+
+  .credits-track {
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: center;
+    padding: 0 24px !important;
+    gap: 32px !important;
+  }
+  .credits-track .cc-wrap { width: 100%; max-width: 320px; display: flex; justify-content: center; }
+  .credits-track .cc-wrap > div { width: 100% !important; max-width: 320px !important; }
 }
 
 @media (max-width: 420px) {

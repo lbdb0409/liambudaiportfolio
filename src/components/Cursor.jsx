@@ -38,8 +38,8 @@ export default function Cursor() {
 
   return (
     <>
-      <div ref={dotRef} style={{ position: 'fixed', top: 0, left: 0, width: 8, height: 8, borderRadius: '50%', background: '#d4ff2b', pointerEvents: 'none', zIndex: 10001, willChange: 'transform', transition: 'opacity 0.25s' }} />
-      <div ref={circleRef} style={{ position: 'fixed', top: 0, left: 0, width: 40, height: 40, borderRadius: '50%', border: '1px solid #d4ff2b33', pointerEvents: 'none', zIndex: 10000, willChange: 'transform', transition: 'border-color 0.3s' }} />
+      <div ref={dotRef} className="custom-cursor" style={{ position: 'fixed', top: 0, left: 0, width: 8, height: 8, borderRadius: '50%', background: '#d4ff2b', pointerEvents: 'none', zIndex: 10001, willChange: 'transform', transition: 'opacity 0.25s' }} />
+      <div ref={circleRef} className="custom-cursor" style={{ position: 'fixed', top: 0, left: 0, width: 40, height: 40, borderRadius: '50%', border: '1px solid #d4ff2b33', pointerEvents: 'none', zIndex: 10000, willChange: 'transform', transition: 'border-color 0.3s' }} />
     </>
   )
 }
