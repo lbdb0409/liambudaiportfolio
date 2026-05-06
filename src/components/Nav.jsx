@@ -45,7 +45,7 @@ export default function Nav() {
             style={{
               fontFamily: "'DM Sans', sans-serif", fontSize: 13, fontWeight: 400,
               letterSpacing: '0.12em', textTransform: 'uppercase',
-              color: active === l.href.slice(1) ? '#d4ff2b' : '#555',
+              color: active === l.href.slice(1) ? '#d4ff2b' : '#eee',
               transition: 'color 0.3s',
             }}>
             {l.label}
