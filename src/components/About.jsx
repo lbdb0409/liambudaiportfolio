@@ -72,7 +72,7 @@ export default function About() {
               </div>
               <p style={{ ...s, fontSize: 14, letterSpacing: '0.3em', textTransform: 'uppercase', color: '#d4ff2b', marginBottom: 20 }}>Who I Am</p>
               <h2 style={{ ...h, fontWeight: 700, textTransform: 'uppercase', fontSize: 'clamp(24px, 3.5vw, 44px)', lineHeight: 1.15, color: '#eee' }}>
-                I've had an overactive imagination my whole life.
+                My whole life I've had an overactive imagination.
               </h2>
             </div>
           </div>
